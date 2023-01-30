@@ -40,7 +40,7 @@ export const TOASTTYPES = {
 
 const defaultToastProps = {
   toastType: TOASTTYPES.DEFAULT,
-  message: 'Mocktail Rocks 💣💣'
+  message: 'Welcome Back! 🎉🎉'
 };
 
 export const defaultSuccessToast = {
