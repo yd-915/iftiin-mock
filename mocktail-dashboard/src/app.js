@@ -3,8 +3,6 @@ import Dashboad from './containers/Dashboard';
 import Header from './components/Header';
 import { ToastContainer, toast } from 'react-toastify';
 import useToastify from './hooks/useToastify';
-
-
 import 'react-toastify/dist/ReactToastify.css';
 import './styles/global.css';
 
@@ -31,7 +29,6 @@ function App() {
       />
       <Header />
       <Dashboad frenchToast={frenchToast} />
-   
     </div>
   );
 }
