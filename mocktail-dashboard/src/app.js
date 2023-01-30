@@ -31,7 +31,7 @@ function App() {
       />
       <Header />
       <Dashboad frenchToast={frenchToast} />
-      <GithubCorner direction="left" size={50} href="https://github.com/Huseyinnurbaki/mocktail" />
+   
     </div>
   );
 }
