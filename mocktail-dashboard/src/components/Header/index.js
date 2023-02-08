@@ -10,7 +10,7 @@ const Header = () => {
             src="./mock.png"
             className="headerimg"
             alt=""
-            style={{ height: '100px', alignSelf: 'center',  justifyContent: 'left'}}
+            style={{ height: '100px', alignSelf: 'center',  justifyContent:·'left'}}
           />
         </Col>
       </Row>
