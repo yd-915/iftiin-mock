@@ -11,7 +11,7 @@ const Header = () => {
             src="./return.png"
             className="headerimg"
             alt=""
-            style={{height: '100px', width: '100px'}}
+           
           />
 </a>
         </Col>
