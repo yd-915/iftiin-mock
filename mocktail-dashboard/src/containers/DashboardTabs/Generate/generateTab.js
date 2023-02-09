@@ -80,7 +80,13 @@ function GenerateTab(props) {
             onClick={() => clearAll()}>
             Clear 🧹
           </Button>
-         <Link to="https://www.iftiinhub.pro/homepage" className="btn btn-primary"></Link>
+           <Button
+            disabled={false}
+            style={{ marginLeft: '20px' }}
+            variant="warning"
+            onClick={event =>  window.location.href='https://www.iftiinhub.pro/homepage'}>
+            Home
+          </Button>
         </Col>
       </Col>
     </>
