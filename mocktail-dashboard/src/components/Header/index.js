@@ -14,7 +14,10 @@ const Header = () => {
           />
         </Col>
       </Row>
-   <Row className="justify-content-md-center">
+    </Container>
+   
+    <Container>
+      <Row className="justify-content-md-center">
         <Col xs={12} sm={4} md={4}>
           <img
             src="./header.webp"
