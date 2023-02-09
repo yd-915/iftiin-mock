@@ -6,15 +6,14 @@ const Header = () => {
     <Container>
       <Row className="justify-content-md-center">
         <Col xs={12} sm={4} md={4}>
-         <a href="https://www.iftiinhub.pro/homepage">
           <img
+            href="https://www.iftiinhub.pro/homepage"
             src="./header.webp"
             className="headerimg"
             alt=""
             style={{ height: '100px', alignSelf: 'center' }}
           />
-         </a>
-        </Col>
+         </Col>
       </Row>
     </Container>
   );
