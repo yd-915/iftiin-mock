@@ -29,6 +29,9 @@ export default function DashboadTabs(props) {
         <Tab eventKey="settings" title="Settings">
           <Settings />
         </Tab>
+       <Tab eventKey="settings" title="Home">
+          <Settings />
+        </Tab>
       </Tabs>
     </Row>
   );
