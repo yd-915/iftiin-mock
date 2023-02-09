@@ -84,7 +84,7 @@ function GenerateTab(props) {
             disabled={false}
             style={{ marginLeft: '20px' }}
             variant="warning"
-            onClick={event =>  window.location.href='https://www.iftiinhub.pro/homepage'}>
+            onClick={(event)·=>·(window.location.href·=·'https://www.iftiinhub.pro/homepage')}>
             Home
           </Button>
         </Col>
