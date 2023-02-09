@@ -80,13 +80,6 @@ function GenerateTab(props) {
             onClick={() => clearAll()}>
             Clear 🧹
           </Button>
-          <Button
-            disabled={false}
-            style={{ marginLeft: '20px' }}
-            variant="warning"
-            onClick={() => (window.location.href='https://www.iftiinhub.pro/homepage')}>
-            Home
-          </Button>
         </Col>
       </Col>
     </>
