@@ -80,8 +80,7 @@ function GenerateTab(props) {
             onClick={() => clearAll()}>
             Clear 🧹
           </Button>
-
-           <Button
+          <Button
             disabled={false}
             style={{ marginLeft: '20px' }}
             variant="warning"
