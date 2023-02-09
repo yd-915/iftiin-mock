@@ -6,6 +6,7 @@ import Tips from './Tips';
 import PropTypes from 'prop-types';
 import Import from './Import';
 import Settings from './Settings';
+import Home from './Home';
 import '../../styles/global.css';
 export default function DashboadTabs(props) {
   const { refetch, frenchToast } = props;
@@ -29,8 +30,8 @@ export default function DashboadTabs(props) {
         <Tab eventKey="settings" title="Settings">
           <Settings />
         </Tab>
-       <Tab eventKey="settings" title="Home">
-          <Settings />
+       <Tab eventKey="home" title="Home">
+          <Home />
         </Tab>
       </Tabs>
     </Row>
